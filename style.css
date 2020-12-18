@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-items: center;
+}
+
+h1 {
+  font-size: 5em;
+  animation-name: randomcolor;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes randomcolor {
+  0% {
+    color: red
+  }
+  10% {
+    color: royalblue;
+  }
+  20% {
+    color: sienna;
+  }
+  30% {
+    color: springgreen;
+  }
+  40% {
+    color: thistle;
+  }
+  50% {
+    color: turquoise;
+  }
+  75% {
+    color: yellow;
+  }
+  100% {
+    color: slategray;
+  }
+}
